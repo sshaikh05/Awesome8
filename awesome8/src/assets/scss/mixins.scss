@@ -1,0 +1,46 @@
+@import "./variables.scss";
+
+@mixin textStyling {
+  &.regular {
+    font-family: 'NotoSans-Regular';
+    font-weight: 400;
+  }
+  &.medium {
+    font-family: 'NotoSans-Medium';
+    font-weight: 500;
+  }
+  &.bold {
+    font-family: 'NotoSans-Bold';
+    font-weight: 700;
+  }
+  &.primary {
+    color: $primary;
+  }
+  &.secondary {
+    color: $secondary;
+  }
+  &.secondary2 {
+    color: $secondary2;
+  }
+  &.secondary3 {
+    color: $secondary3;
+  }
+  &.white {
+    color: $white;
+  }
+  &.gray {
+    color: $gray;
+  }
+  &.gray2 {
+    color: $gray2;
+  }
+  &.gray3 {
+    color: $gray3;
+  }
+  &.gray4 {
+    color: $gray4;
+  }
+  &.black {
+    color: $black;
+  }
+}

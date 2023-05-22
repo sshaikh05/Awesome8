@@ -1,0 +1,41 @@
+@import "../../../assets/scss/styles.scss";
+
+.card {
+  padding: 0 16px;
+  .cardTop {
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .userDetails {
+      .img {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 8px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .content {
+        .dFlexCenter {
+          img {
+            padding: 0 4px;
+          }
+        }
+      }
+    }
+  }
+  .description {
+    margin-top: 16px;
+    span {
+      display: block;
+      margin-bottom: 20px;
+      line-height: initial;
+      &:last-child {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}

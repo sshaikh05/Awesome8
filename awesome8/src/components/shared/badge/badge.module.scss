@@ -1,0 +1,17 @@
+@import "../../../assets/scss/mixins.scss";
+@import "../../../assets/scss/variables.scss";
+
+.badge {
+  background-color: $gray2;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: $font-sm;
+  border: solid 0.5px $gray;
+  color: $secondary3;
+  font-weight: 500;
+  font-family: 'NotoSans-Medium';
+  text-transform: uppercase;
+  margin-right: 8px;
+  margin-top: 8px;
+  display: inline-block;
+}

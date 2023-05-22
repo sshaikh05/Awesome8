@@ -1,0 +1,14 @@
+@import "../../../assets/scss/styles.scss";
+
+.input {
+  background: $white;
+  border: none;
+  width: 100%;
+  color: $gray4;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    font-size: $font-sm;
+  }
+}

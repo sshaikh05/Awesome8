@@ -1,0 +1,16 @@
+@import "../../../assets/scss/variables.scss";
+
+.header {
+  padding: 15px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $white;
+  margin-bottom: 20px;
+  position: sticky;
+  top: -1px;
+
+  img {
+    cursor: pointer;
+  }
+}

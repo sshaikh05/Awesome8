@@ -1,0 +1,73 @@
+
+@import "../../../../assets/scss/styles.scss";
+
+.comments {
+  .commentBtns {
+    padding: 16px;
+    border-bottom: solid 2px $gray2;
+    margin: 0 -16px 12px;
+    
+    .dFlexCenter {
+      cursor: pointer;
+      margin-right: 15px;
+      img {
+        margin-right: 5px;
+      }
+    }
+  }
+  .commentSection {
+    .cardTop {
+      justify-content: space-between;
+      position: relative;
+
+      .more {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .userDetails {
+        display: flex;
+        .img {
+          min-width: 34px;
+          width: 34px;
+          height: 34px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin-right: 8px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .content {
+          .dFlexCenter {
+            margin-bottom: 16px;
+            padding-top: 13px;
+            img {
+              padding: 0 4px;
+            }
+          }
+          .commentBtnsChild {
+            .dFlexCenter {
+              cursor: pointer;
+              margin-right: 15px;
+              margin-bottom: 0;
+              padding-top: 0;
+
+              img {
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .childComment {
+      padding-left: 42px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "../../../assets/scss/mixins.scss";
+@import "../../../assets/scss/variables.scss";
+
+.button {
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: $font-sm;
+  line-height: $font-sm;
+  border: none;
+  font-weight: 500;
+  font-family: 'NotoSans-Medium';
+  &.primary {
+    background-color: $primary;
+    color: $white;
+  }
+  &.secondry {
+    background-color: $white;
+    color: $gray3;
+  }
+}
